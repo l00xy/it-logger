@@ -1,5 +1,13 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "id": 1,
+      "message": "Server 007 failed",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2022-12-03T04:01:23.822Z"
+    }
+  ],
   "techs": [
     {
       "id": 1,
