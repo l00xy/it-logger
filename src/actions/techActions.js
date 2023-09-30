@@ -3,7 +3,7 @@ import {
   ADD_TECH,
   DELETE_TECH,
   SET_LOADING,
-  TECHS_ERROR,
+  TECH_ERROR,
 } from './types';
 
 // Get techs from server
@@ -20,7 +20,7 @@ export const getTechs = () => async (dispatch) => {
     });
   } catch (err) {
     dispatch({
-      type: TECHS_ERROR,
+      type: TECH_ERROR,
       payload: err.response.statusText,
     });
   }
